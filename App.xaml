@@ -1,0 +1,27 @@
+﻿<Application x:Class="Audit.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Audit"
+>
+    <Application.Resources>
+        <ResourceDictionary>
+        <!-- 引用资源字典 -->
+        <ResourceDictionary.MergedDictionaries>
+            <ResourceDictionary Source="Dictionary/ButtonDic.xaml"/>
+            <ResourceDictionary Source="Dictionary/StackPanelDic.xaml"/>
+            <ResourceDictionary Source="Dictionary/TextBlockDic.xaml"/>
+            <ResourceDictionary Source="Dictionary/NewBoxDic.xaml"/>
+            <ResourceDictionary Source="Dictionary/BorderDic.xaml"/>
+            <ResourceDictionary Source="Dictionary/WindowDic.xaml"/>
+
+                <ResourceDictionary Source="Dictionary/DockPanelDic.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="Dictionary/ImageDic.xaml"></ResourceDictionary>
+                <ResourceDictionary>
+                    <local:MefBootstrapper x:Key="bootstrapper" />
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+            
+    </ResourceDictionary>   
+        
+    </Application.Resources>
+</Application>

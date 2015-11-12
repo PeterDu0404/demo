@@ -1,0 +1,46 @@
+[{  
+    "province": "全国",  
+    "city": "",  
+    "season": "",
+    "coefficient":0.3
+}, {  
+    "province": "全国",  
+    "city": "",  
+    "season": "春季",
+    "coefficient":0.35
+}, {  
+    "province": "全国",  
+    "city": "",  
+    "season": "冬季",
+    "coefficient":0.9
+}, {  
+    "province": "湖南",  
+    "city": "",  
+    "season": "",
+    "coefficient":0.6
+}, {  
+    "province": "湖南",  
+    "city": "",  
+    "season": "夏季",
+    "coefficient":0.55
+}, {  
+    "province": "湖南",  
+    "city": "长沙",  
+    "season": "",
+    "coefficient":0.2
+}, {  
+    "province": "湖南",  
+    "city": "长沙",  
+    "season": "冬季",
+    "coefficient":0.2
+}, {  
+    "province": "湖北",  
+    "city": "",  
+    "season": "秋季",
+    "coefficient":0.48
+},  {  
+    "province": "湖北",  
+    "city": "武汉",  
+    "season": "",
+    "coefficient":0.6
+}]
